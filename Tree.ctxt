@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Tree
+comment0.text=\n\ Tree\ is\ a\ type\ of\ plant\ in\ our\ simulation\n\n\ @author\ Zahra\ Amaan\ and\ Imaan\ Ghafur\ \n
+comment1.params=field\ location\ time
+comment1.target=Tree(Field,\ Location,\ Time)
+comment1.text=\n\ Create\ a\ tree.\ A\ tree\ can\ be\ grow\ and\ die.\n\ \n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ time\ The\ time\ object\ that\ keeps\ track\ of\ time\n
+comment2.params=newPlants
+comment2.target=void\ act(java.util.List)
+comment2.text=\n\ \ \ This\ is\ what\ the\ tree\ does\ most\ of\ the\ time\ -\ it\ grows\ (multiplies)\ or\ dies\ of\ old\ age.\n\ \ \ \n\ \ \ \ @param\ newPlants\ A\ list\ to\ return\ newly\ grown\ plants.\n
+comment3.params=
+comment3.target=double\ getDisease()
+comment3.text=\n\ returns\ the\ probability\ of\ tree\ getting\ the\ disease\n
+comment4.params=newPlants
+comment4.target=void\ grow(java.util.List)
+comment4.text=\n\ If\ area\ around\ plant\ is\ unoccupied\ then\ they\ grow.\n\ \n\ @param\ newPlants\ A\ list\ to\ return\ newly\ grown\ plants.\n
+numComments=5

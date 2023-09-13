@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Bear
+comment0.text=\n\ A\ simple\ model\ of\ a\ bear.\n\ Bears\ age,\ move,\ eat\ mice,\ and\ die.\n\ \n\ @author\ David\ J.\ Barnes,\ Michael\ K\u00F6lling,\ Zahra\ Amaan\ and\ Imaan\ Ghafur\n\ @version\ 2016.02.29\ (2)\n
+comment1.params=randomAge\ field\ location\ time
+comment1.target=Bear(boolean,\ Field,\ Location,\ Time)
+comment1.text=\n\ Create\ a\ bear.\ A\ bear\ can\ be\ created\ as\ a\ new\ born\ (age\ zero\n\ and\ not\ hungry)\ or\ with\ a\ random\ age\ and\ food\ level.\n\ \n\ @param\ randomAge\ If\ true,\ the\ bear\ will\ have\ random\ age\ and\ hunger\ level.\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ time\ The\ time\ object\ that\ keeps\ track\ of\ time\n
+comment2.params=newAnimals
+comment2.target=void\ act(java.util.List)
+comment2.text=\n\ This\ is\ what\ the\ Bear\ does\ most\ of\ the\ time\:\ it\ hunts\ for\n\ mice.\ In\ the\ process,\ it\ might\ breed,\ die\ of\ hunger,\n\ or\ die\ of\ old\ age.\n\ @param\ newAnimals\ A\ list\ to\ return\ newly\ born\ animals.\n
+comment3.params=
+comment3.target=Location\ findFood()
+comment3.text=\n\ Look\ for\ mice\ adjacent\ to\ the\ current\ location.\n\ Only\ the\ first\ live\ mouse\ is\ eaten.\n\ @return\ Where\ food\ was\ found,\ or\ null\ if\ it\ wasn't.\n
+comment4.params=
+comment4.target=double\ getDisease()
+comment4.text=\n\ returns\ the\ probability\ of\ bear\ getting\ the\ disease\n
+comment5.params=newAnimals
+comment5.target=void\ giveBirth(java.util.List)
+comment5.text=\n\ Check\ whether\ or\ not\ this\ animal\ is\ to\ give\ birth\ at\ this\ step.\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\n\ @param\ newAnimals\ A\ list\ to\ return\ newly\ born\ animals.\n
+comment6.params=
+comment6.target=int\ breed()
+comment6.text=\n\ Generate\ a\ number\ representing\ the\ number\ of\ births,\n\ if\ it\ can\ breed.\n\ @return\ The\ number\ of\ births\ (may\ be\ zero).\n
+comment7.params=
+comment7.target=boolean\ canBreed()
+comment7.text=\n\ A\ animal\ can\ breed\ if\ it\ ia\ a\ female\ and\ is\ next\ to\ a\ male.\n\ The\ animal\ must\ also\ be\ above\ the\ breeding\ age\ to\ be\ able\ to\ breed.\n
+numComments=8

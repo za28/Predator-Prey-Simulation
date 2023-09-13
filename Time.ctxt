@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Time
+comment0.text=\n\ This\ class\ models\ time.\ It\ has\ the\ time\ of\ day\ and\ time\ of\ year\ (seasons).\n\n\ @author\ Zahra\ Amaan\ and\ Imaan\ Ghafur\n
+comment1.params=
+comment1.target=Time()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Time\n\ Initialises\ the\ season\ to\ spring\ and\ the\ steps\ to\ 0\n
+comment2.params=
+comment2.target=java.lang.Boolean\ isDay()
+comment2.text=\n\ Checks\ if\ it\ is\ day.\n\ \n\ @return\ true\ if\ it\ is\ day\ and\ false\ if\ it\ is\ night\ \n
+comment3.params=
+comment3.target=Time.Season\ getSeason()
+comment3.text=\n\ Checks\ and\ returns\ the\ current\ season\n\ \n\ @return\ the\ current\ season\n
+comment4.params=s
+comment4.target=void\ setSteps(int)
+comment4.text=\n\ Sets\ the\ number\ of\ steps\ \n\ \n\ @param\ s\ -\ the\ number\ of\ steps\n
+comment5.params=
+comment5.target=java.lang.Boolean\ isWinter()
+comment5.text=\n\ Checks\ if\ the\ season\ is\ winter.\ True\ if\ winter,\ false\ if\ not\n\ \n\ @return\ true\ if\ the\ season\ is\ winter\ and\ false\ if\ it\ is\ not\n
+comment6.params=
+comment6.target=java.lang.Boolean\ isSummer()
+comment6.text=\n\ Checks\ if\ the\ season\ is\ summer.\ True\ if\ summer,\ false\ if\ not\n\ \n\ @return\ true\ if\ the\ season\ is\ summer\ and\ false\ if\ it\ is\ not\n
+numComments=7

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\n\ A\ class\ representing\ shared\ characteristics\ of\ plants.\n\n\ @author\ Imaan\ Ghafur\ and\ Zahra\ Amaan\n
+comment1.params=field\ location\ time
+comment1.target=Plant(Field,\ Location,\ Time)
+comment1.text=\n\ Create\ a\ tree.\ A\ tree\ can\ be\ grow\ and\ die.\n\ \n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ time\ The\ time\ object\ that\ keeps\ track\ of\ time\n
+comment2.params=maxAge
+comment2.target=int\ setAge(int)
+comment2.text=\n\ sets\ a\ random\ age\ for\ plant\ \n
+comment3.params=newPlants
+comment3.target=void\ act(java.util.List)
+comment3.text=\n\ every\ plant\ will\ act\ differently\ \n
+comment4.params=newPlants
+comment4.target=void\ grow(java.util.List)
+comment4.text=\n\ every\ plant\ will\ grow\ at\ different\ rates\ \n
+comment5.params=
+comment5.target=void\ incrementAge()
+comment5.text=\n\ Increase\ the\ age.\ This\ could\ result\ in\ the\ plants\ death.\n
+numComments=6

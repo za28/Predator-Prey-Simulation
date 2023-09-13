@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Disease
+comment0.text=\n\ This\ calss\ models\ the\ disease.\ Diseases\ appear\ randomly.\n\n\ @author\ Imaan\ Ghafur\ and\ Zahra\ Amaan\n
+comment1.params=field\ location
+comment1.target=Disease(Field,\ Location)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Disease\n\ \n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n
+comment2.params=newLocation
+comment2.target=void\ setLocation(Location)
+comment2.text=\n\ Sets\ the\ location\ of\ the\ disease.\n\ \n\ @param\ location\ The\ location\ within\ the\ field.\n
+comment3.params=
+comment3.target=Location\ getLocation()
+comment3.text=\n\ Returns\ the\ location\ of\ the\ disease.\n\ \n\ @return\ location\ The\ location\ within\ the\ field.\n
+comment4.params=diseases
+comment4.target=java.util.List\ spread(java.util.List)
+comment4.text=\n\ This\ method\ allows\ the\ disease\ to\ infect\ an\ animal\ and\ then\ to\ take\ up\ the\ location\ of\ that\ animal\ \n\ the\ disease\ object\ that\ replaces\ the\ animal\ is\ an\ 'infected\ animal'\n\ the\ infection\ leads\ to\ the\ death\ of\ the\ animal\n\ \n\ @param\ diseases\ A\ list\ to\ return\ newly\ born\ diseases.\n\ @return\ diseases\ The\ list\ of\ new\ diseases\n
+comment5.params=
+comment5.target=void\ gone()
+comment5.text=\n\ Deletes\ the\ disease\n
+numComments=6

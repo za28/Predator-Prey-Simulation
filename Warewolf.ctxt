@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Warewolf
+comment0.text=\n\ A\ simple\ model\ of\ a\ warewolves.\n\ Warewolves\ age,\ move,\ eat\ mice,\ and\ die.\n\n\ @author\ Zahra\ Amaan\ and\ Imaan\ Ghafur\n
+comment1.params=randomAge\ field\ location\ time
+comment1.target=Warewolf(boolean,\ Field,\ Location,\ Time)
+comment1.text=\n\ Create\ a\ warewolf.\ A\ warewolf\ can\ be\ created\ as\ a\ new\ born\ (age\ zero\n\ and\ not\ hungry)\ or\ with\ a\ random\ age\ and\ food\ level.\n\ \n\ @param\ randomAge\ If\ true,\ the\ warewolf\ will\ have\ random\ age\ and\ hunger\ level.\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ time\ The\ time\ object\ that\ keeps\ track\ of\ time\n
+comment2.params=
+comment2.target=double\ getDisease()
+comment2.text=\n\ returns\ the\ probability\ of\ warewolf\ getting\ the\ disease\n
+comment3.params=newAnimals
+comment3.target=void\ act(java.util.List)
+comment3.text=\n\ This\ is\ what\ the\ warewolf\ does\ most\ of\ the\ time\:\ it\ hunts\ for\n\ wildcats\ and\ transforms\ humans.\ In\ the\ process,\ it\ might\ breed,\ die\ of\ hunger\n\ or\ die\ of\ old\ age.\n\ @param\ newAnimals\ A\ list\ to\ return\ newly\ born\ animals.\n
+comment4.params=
+comment4.target=Location\ findFood()
+comment4.text=\n\ Look\ for\ wildcats\ adjacent\ to\ the\ current\ location.\n\ Only\ the\ first\ live\ wildcats\ is\ eaten.\n\ @return\ Where\ food\ was\ found,\ or\ null\ if\ it\ wasn't.\n
+comment5.params=newAnimals
+comment5.target=void\ transform(java.util.List)
+comment5.text=\n\ Check\ whether\ or\ not\ this\ animal\ is\ to\ transform\ at\ this\ step.\n\ New\ tranformations\ will\ be\ made\ into\ the\ humans\ previous\ locations.\n\ @param\ newAnimals\ A\ list\ to\ return\ new\ warewolfs.\n
+numComments=6

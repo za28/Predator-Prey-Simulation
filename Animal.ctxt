@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\n\ \ A\ class\ representing\ shared\ characteristics\ of\ animals.\ \n\ \ \n\ @author\ Imaan\ Ghafur\ and\ Zahra\ Amaan\n
+comment1.params=randomAge\ field\ location\ time
+comment1.target=Animal(boolean,\ Field,\ Location,\ Time)
+comment1.text=\n\ Create\ a\ Animal.\ A\ animal\ can\ be\ created\ as\ a\ new\ born\ (age\ zero\n\ and\ not\ hungry)\ or\ with\ a\ random\ age\ and\ food\ level.\n\ \n\ @param\ randomAge\ If\ true,\ the\ animal\ will\ have\ random\ age\ and\ hunger\ level.\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ time\ The\ time\ object\ that\ keeps\ track\ of\ time\n
+comment2.params=
+comment2.target=void\ incrementAge()
+comment2.text=\n\ Increase\ the\ age.\ This\ could\ result\ in\ the\ animal's\ death.\n
+comment3.params=
+comment3.target=void\ incrementHunger()
+comment3.text=\n\ Make\ this\ animal\ more\ hungry.\ This\ could\ result\ in\ the\ animal's\ death.\n
+comment4.params=
+comment4.target=boolean\ isFemale()
+comment4.text=\n\ Checks\ if\ a\ animal\ is\ a\ female\n\ \n\ @return\ true\ if\ animal\ is\ female\ and\ false\ if\ it\ is\ a\ male\n
+numComments=5
